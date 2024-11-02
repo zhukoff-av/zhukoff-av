@@ -7,7 +7,7 @@ A brief description of the project goes here.
 ### 👨‍💻 About Me
 My name is Anton, and I’m an experienced IT professional with over 10 years in the industry. I began my career in software quality assurance, transitioned into full-stack development, and now specialize in both frontend development and test automation. My expertise includes building web applications, automating tests, and developing efficient internal tools to streamline workflows and enhance productivity. 
 
-- 🔭 Currently enhancing my skills to transition fully into development and automation.
+- 🔭 Currently enhancing my skills to transition fully into development.
 - 🌱 Learning new tools and technologies in testing and development.
 - 💬 Passionate about discussing **testing, automation**, and **web development**.
 
