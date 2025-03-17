@@ -66,9 +66,6 @@ Here are some personal projects I've developed in my free time:
 
 </details>
 
-### 📊 Profile Stats
-![Anton’s GitHub Stats](https://github-readme-stats.vercel.app/api?username=zhukoff-av&show_icons=true&theme=default)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zhukoff-av&layout=compact&langs_count=8&hide=html)
 
 ### 🌐 Find Me Online
