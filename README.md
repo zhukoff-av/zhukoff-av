@@ -10,7 +10,7 @@ My name is Anton, and I’m an experienced IT professional with over 10 years in
 - 💬 Passionate about discussing **testing, automation**, and **web development**.
 
 ### 🛠️ Skills & Tools
-- **Languages**: JavaScript, TypeScript, Python, Java
+- **Languages**: Java, JavaScript, TypeScript
 - **Frontend Frameworks**: React, Angular
 - **Testing Frameworks**: Cypress, Playwright, WebdriverIO, Protractor
 - **CI/CD**: Github Actions, Gitlab, CircleCI
