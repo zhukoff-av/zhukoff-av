@@ -1,75 +1,70 @@
-## Hi there 👋
+# Hi, I'm Anton
 
-A brief description of the project goes here.
+I build QA automation systems and developer-agent workflows around Playwright, TypeScript, CI/CD, and practical AI-assisted engineering.
 
-### 👨‍💻 About Me
-My name is Anton, and I’m an experienced IT professional with over 10 years in the industry. I began my career in software quality assurance, transitioned into full-stack development, and now specialize in both frontend development and test automation. My expertise includes building web applications, automating tests, and developing efficient internal tools to streamline workflows and enhance productivity. 
+My current focus is the point where test automation becomes an engineering platform: clear test plans, stable Playwright specs, reusable fixtures, CI feedback loops, and specialized agents that can plan, generate, review, heal, and verify automation work.
 
-- 🔭 Currently enhancing my skills.
-- 🌱 Learning new tools and technologies in testing and development.
-- 💬 Passionate about discussing **testing, automation**, and **web development**.
+## Current Focus
 
-### 🛠️ Skills & Tools
-- **Languages**: Java, JavaScript, TypeScript
-- **Frontend Frameworks**: React, Angular
-- **Testing Frameworks**: Cypress, Playwright, WebdriverIO, Protractor
-- **CI/CD**: Github Actions, Gitlab, CircleCI
-- **Tooling**: pnpm, Volta
-- **Additional**: Developing and maintaining test frameworks, working with DOM API, and creating internal tools
+- **Developer agents for QA and engineering**: agent prompts, routing rules, repair loops, verification gates, and issue-driven workflows.
+- **Playwright automation architecture**: TypeScript test suites, fixtures, page objects, plan-to-test traceability, reporting, and maintainable test design.
+- **Agentic development loops**: trace every run, diagnose with evidence, apply minimal fixes, validate locally, push, watch CI, and repair when needed.
+- **CI/CD quality gates**: GitHub Actions workflows, Playwright artifacts, JSON/HTML summaries, and reliable release signals.
+- **Framework engineering**: small tools and conventions that make automation easier to extend, review, and operate.
 
-### 🚀 Projects
-Here are some personal projects I've developed in my free time:
+## Selected Projects
 
-- **AlgoVisualizer** — built using Vanilla JS and DOM API. Algorithms and Visualization is a project dedicated to illustrating the inner workings of various algorithms through interactive visualizations. By leveraging JavaScript and modern web technologies, this project aims to make complex algorithmic concepts more accessible and engaging for learners and enthusiasts.
-  - [Repository Link](https://github.com/zhukoff-av/AlgorithmsJS)
+### [Playwright](https://github.com/zhukoff-av/Playwright)
 
-- **Booking**: A frontend project built with pure JavaScript. This service allows users to post rental property listings in central Tokyo. Users can either list their own properties or browse existing listings.
-  - [Repository Link](https://github.com/zhukoff-av/keksobooking)
+A Playwright TypeScript automation workspace that has grown into an agent-ready QA framework. It includes test plans, generated specs with plan metadata, plan coverage checks, GitHub Actions reporting, and specialized QA agent prompts for planning, generation, healing, review, CI repair, stability, performance, and verification.
 
-- **Automation Project Playwright** — Playwright-based tests for UI, integrated with Github Actions.
-  - [Repository Link](https://github.com/zhukoff-av/Playwright)
+Highlights:
 
-- **GenDiff** — is a command-line utility built with JavaScript that identifies and displays differences between two JSON or YAML files. This tool is perfect for developers and DevOps engineers who need a quick way to compare configuration files, track changes in structured data, or debug configuration issues.
-  - [Repository Link](https://github.com/zhukoff-av/Gendiff)
+- Human-readable test plans in `specs/` synchronized with automated tests in `tests/`.
+- Stable `Plan ID` metadata in generated specs.
+- `npm run plan-coverage` for plan/test alignment.
+- GitHub Actions matrix execution with Playwright reports and summary artifacts.
+- `codex:issue` workflow for issue-driven agent implementation, validation, commit, push, CI watch, and safe closure.
 
-- **Brain Games** — is a set of interactive logic games developed in pure JavaScript without the use of frameworks or libraries. These games are designed to improve cognitive skills such as logic, arithmetic and memory.
-  - [Repository Link](https://github.com/zhukoff-av/Brain-Games)
+### [playwright-agents](https://github.com/zhukoff-av/playwright-agents)
 
-<details>
-  <summary>more projects</summary>
-  
-- **React Basics**: A project demonstrating fundamental concepts of React, including component creation, state management, and props handling.
-  - [Repository Link](https://github.com/zhukoff-av/react-complete)
+A public space for experiments around Playwright-focused agents and reusable automation workflows. This is where I explore how QA work can be split between specialized agents instead of one generic assistant.
 
-- **React Quiz**: An interactive quiz application developed using React. It features dynamic question rendering and real-time score updates.
-  - [Repository Link](https://github.com/zhukoff-av/react-QUIZ)
+### [cypress-playground](https://github.com/zhukoff-av/cypress-playground) and [cypress-visual-regression](https://github.com/zhukoff-av/cypress-visual-regression)
 
-- **Cypress Basics**: A collection of test cases showcasing the basics of Cypress for end-to-end testing of web applications.
-  - [Repository Link](https://github.com/zhukoff-av/cypress-playground)
+Earlier QA automation work with Cypress, including visual regression experiments. These projects represent the path from classic E2E automation toward the Playwright and agentic QA work I focus on now.
 
-- **Cypress Visual Regression**: A project focused on implementing visual regression testing using Cypress to ensure UI consistency across versions.
-  - [Repository Link](https://github.com/zhukoff-av/cypress-visual-regression)
+### Earlier Engineering Work
 
-- **Google Sheet with Pure JS**: A web application that replicates basic functionalities of Google Sheets, developed using pure JavaScript.
-  - [Repository Link](https://github.com/zhukoff-av/google-sheets)
+I also keep older learning and product-style projects around JavaScript, React, Angular, Java, algorithms, CLI tools, and backend APIs. They are useful as a record of breadth, but my active direction is now QA platforms and AI-assisted engineering.
 
-- **Udagram**: A simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed,   and process photos using an image filtering microservice.
-  - **Frontend**: Angular web application built with Ionic Framework.
-  - **Backend RESTful API**: Node-Express application.
-  - [Repository Link](https://github.com/zhukoff-av/udagram)
+- [AlgorithmsJS](https://github.com/zhukoff-av/AlgorithmsJS)
+- [Gendiff](https://github.com/zhukoff-av/Gendiff)
+- [Brain-Games](https://github.com/zhukoff-av/Brain-Games)
+- [react-complete](https://github.com/zhukoff-av/react-complete)
+- [Angular](https://github.com/zhukoff-av/Angular)
+- [springBootApp](https://github.com/zhukoff-av/springBootApp)
 
-- **Pact Test in Java**: A project demonstrating consumer-driven contract testing using Pact in a Java environment.
-  - [Repository Link](https://github.com/zhukoff-av/pact-sample)
+## Tooling
 
-- **SpringBoot Basic App**: A basic application built with Spring Boot in Java, showcasing RESTful API development and dependency injection.
-  - [Repository Link](https://github.com/zhukoff-av/springBootApp)
+**Languages:** TypeScript, JavaScript, Python, Java  
+**Automation:** Playwright, Cypress, WebdriverIO, Selenium, Pact  
+**Agent workflows:** Codex, GitHub Copilot Agent-style prompts, specialized agent routing, verification gates  
+**Frontend:** React, Angular, DOM API  
+**CI/CD:** GitHub Actions, GitLab CI, CircleCI  
+**Engineering tools:** pnpm, Volta, GitHub CLI, Playwright reports, custom Node.js scripts
 
-</details>
+## What I Like Working On
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zhukoff-av&layout=compact&langs_count=8&hide=html)
+- Turning manual QA knowledge into explicit test plans and automation-ready scenarios.
+- Designing agents that have narrow responsibilities and clear handoff rules.
+- Making flaky tests boring by replacing fragile timing with deterministic synchronization.
+- Improving CI feedback so failures are diagnosable, not just red.
+- Building small internal tools that reduce repetitive QA and development work.
 
-### 🌐 Find Me Online
+## Online
+
 - [LinkedIn](http://www.linkedin.com/in/antonzhukov1)
 - [GitHub](https://github.com/zhukoff-av)
 
-Thanks for visiting! Feel free to reach out if you have exciting projects or questions. I’m always open to connecting!
+If you're working on QA automation, Playwright frameworks, or developer agents, I'm always interested in exchanging ideas.
