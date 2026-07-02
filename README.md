@@ -1,70 +1,74 @@
-# Hi, I'm Anton
+# Anton Zhukov
 
-I build QA automation systems and developer-agent workflows around Playwright, TypeScript, CI/CD, and practical AI-assisted engineering.
+Senior QA Automation / SDET focused on AI-native quality engineering: scalable Playwright architecture, agent-assisted automation workflows, reliable CI/CD quality gates, and test systems that move with product delivery.
 
-My current focus is the point where test automation becomes an engineering platform: clear test plans, stable Playwright specs, reusable fixtures, CI feedback loops, and specialized agents that can plan, generate, review, heal, and verify automation work.
+I work where test automation, developer productivity, and release confidence meet. My current direction is using Claude Code, Codex, and custom agent workflows where they create real engineering value: test planning, implementation, review, CI feedback, and repeatable quality gates.
 
 ## Current Focus
 
-- **Developer agents for QA and engineering**: agent prompts, routing rules, repair loops, verification gates, and issue-driven workflows.
-- **Playwright automation architecture**: TypeScript test suites, fixtures, page objects, plan-to-test traceability, reporting, and maintainable test design.
-- **Agentic development loops**: trace every run, diagnose with evidence, apply minimal fixes, validate locally, push, watch CI, and repair when needed.
-- **CI/CD quality gates**: GitHub Actions workflows, Playwright artifacts, JSON/HTML summaries, and reliable release signals.
-- **Framework engineering**: small tools and conventions that make automation easier to extend, review, and operate.
+- **AI-native quality workflows**: applying Claude Code, Codex, and specialized agents to test planning, implementation, review, debugging, and verification.
+- **Quality gates with product delivery**: making automation part of feature development instead of a late-stage checkpoint.
+- **Scalable Playwright architecture**: TypeScript fixtures, page objects, API/UI coverage, plan-to-test traceability, reporting, and maintainable test design.
+- **CI/CD reliability**: faster feedback loops, actionable failure signals, stable reports, and release gates that protect delivery without slowing teams down.
+- **Engineering leadership as an IC**: raising automation standards through reviews, mentoring, repeatable workflows, and measurable quality practices.
 
-## Selected Projects
+## Selected Work
 
-### [Playwright](https://github.com/zhukoff-av/Playwright)
+### AI / Agentic QA Automation
 
-A Playwright TypeScript automation workspace that has grown into an agent-ready QA framework. It includes test plans, generated specs with plan metadata, plan coverage checks, GitHub Actions reporting, and specialized QA agent prompts for planning, generation, healing, review, CI repair, stability, performance, and verification.
+**[Playwright](https://github.com/zhukoff-av/Playwright)**
 
-Highlights:
+An agent-ready Playwright TypeScript automation workspace with test plans, generated specs, plan metadata, coverage checks, CI reporting, and specialized QA agents for planning, generation, healing, review, stability, performance, CI repair, and verification.
 
-- Human-readable test plans in `specs/` synchronized with automated tests in `tests/`.
-- Stable `Plan ID` metadata in generated specs.
-- `npm run plan-coverage` for plan/test alignment.
-- GitHub Actions matrix execution with Playwright reports and summary artifacts.
-- `codex:issue` workflow for issue-driven agent implementation, validation, commit, push, CI watch, and safe closure.
+Key ideas:
 
-### [playwright-agents](https://github.com/zhukoff-av/playwright-agents)
+- Test plans in `specs/` stay linked to automated specs in `tests/`.
+- Generated tests include stable `Plan ID` metadata.
+- `npm run plan-coverage` checks plan/test alignment.
+- GitHub Actions publishes Playwright reports and summary artifacts.
+- Issue-driven agent workflow validates, commits, pushes, watches CI, and only closes work when quality gates pass.
 
-A public space for experiments around Playwright-focused agents and reusable automation workflows. This is where I explore how QA work can be split between specialized agents instead of one generic assistant.
+**[playwright-agents](https://github.com/zhukoff-av/playwright-agents)**
 
-### [cypress-playground](https://github.com/zhukoff-av/cypress-playground) and [cypress-visual-regression](https://github.com/zhukoff-av/cypress-visual-regression)
+A public space for Playwright-focused agent experiments and reusable QA automation workflows. The focus is splitting automation work between narrow agents with clear responsibilities instead of relying on one generic assistant.
 
-Earlier QA automation work with Cypress, including visual regression experiments. These projects represent the path from classic E2E automation toward the Playwright and agentic QA work I focus on now.
+### Playwright Framework / Test Architecture
+
+The active Playwright work covers framework structure, fixtures, page objects, metadata conventions, CI execution, reporting, and stability rules. The goal is to make automated tests easier to generate, review, debug, and trust.
+
+### Web3 / DeFi Testing Direction
+
+I work with Web3 and DeFi testing concerns such as WalletConnect flows, multi-chain behavior, EVM/Solana surfaces, API validation, and business-critical paths where failures can create money-loss risk. I plan to publish more focused examples in this area.
 
 ### Earlier Engineering Work
 
-I also keep older learning and product-style projects around JavaScript, React, Angular, Java, algorithms, CLI tools, and backend APIs. They are useful as a record of breadth, but my active direction is now QA platforms and AI-assisted engineering.
+Older repositories around JavaScript, React, Angular, Java, algorithms, CLI tools, and backend APIs stay available as a record of breadth, but my active public direction is AI-native quality engineering and test automation systems.
 
 - [AlgorithmsJS](https://github.com/zhukoff-av/AlgorithmsJS)
 - [Gendiff](https://github.com/zhukoff-av/Gendiff)
 - [Brain-Games](https://github.com/zhukoff-av/Brain-Games)
-- [react-complete](https://github.com/zhukoff-av/react-complete)
-- [Angular](https://github.com/zhukoff-av/Angular)
-- [springBootApp](https://github.com/zhukoff-av/springBootApp)
+- [1inch](https://github.com/zhukoff-av/1inch)
 
 ## Tooling
 
-**Languages:** TypeScript, JavaScript, Python, Java  
-**Automation:** Playwright, Cypress, WebdriverIO, Selenium, Pact  
-**Agent workflows:** Codex, GitHub Copilot Agent-style prompts, specialized agent routing, verification gates  
-**Frontend:** React, Angular, DOM API  
-**CI/CD:** GitHub Actions, GitLab CI, CircleCI  
-**Engineering tools:** pnpm, Volta, GitHub CLI, Playwright reports, custom Node.js scripts
+- **Agentic engineering:** Claude Code, Codex, custom AI agents, prompt/workflow design, agent routing, verification gates.
+- **Test automation:** Playwright, TypeScript, Cypress, API/UI automation, page objects, fixtures.
+- **CI/CD and quality gates:** GitHub Actions, release gates, test reports, failure classification, artifact-driven debugging.
+- **Web3 testing:** WalletConnect, EVM/Solana surfaces, multi-chain flows, API validation, transaction-risk scenarios.
+- **Reporting and observability:** Playwright reports, Allure, Qase, flaky test tracking, CI summaries.
+- **Engineering:** JavaScript, Python, Java, pnpm, GitHub CLI, framework tooling.
 
 ## What I Like Working On
 
-- Turning manual QA knowledge into explicit test plans and automation-ready scenarios.
-- Designing agents that have narrow responsibilities and clear handoff rules.
-- Making flaky tests boring by replacing fragile timing with deterministic synchronization.
-- Improving CI feedback so failures are diagnosable, not just red.
-- Building small internal tools that reduce repetitive QA and development work.
+- Designing test automation systems that scale with product complexity.
+- Building quality gates that protect releases without slowing delivery.
+- Applying AI agents to test planning, implementation, review, debugging, and CI feedback loops.
+- Improving flaky test detection, reporting, and release confidence.
+- Testing business-critical flows, edge cases, and money-loss scenarios.
+- Reviewing automation architecture and mentoring engineers toward cleaner, more maintainable test code.
+- Improving performance, reliability, maintainability, and developer productivity across the delivery pipeline.
 
 ## Online
 
 - [LinkedIn](http://www.linkedin.com/in/antonzhukov1)
 - [GitHub](https://github.com/zhukoff-av)
-
-If you're working on QA automation, Playwright frameworks, or developer agents, I'm always interested in exchanging ideas.
